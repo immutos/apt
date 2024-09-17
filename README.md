@@ -1,4 +1,4 @@
-# apt
+# Immutos APT Repository
 
 ## Usage
 
