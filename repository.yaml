@@ -1,0 +1,13 @@
+apiVersion: aptify/v1alpha1
+kind: Repository
+releases:
+  - name: bookworm
+    origin: Damian Peckett <damian@pecke.tt>
+    label: Immutos APT Repository
+    suite: bookworm
+    components:
+      - name: stable
+        packages:
+          - vendor/immutos/debco/*.deb
+          - vendor/immutos/matchstick/*.deb
+          - vendor/immutos/oci2erofs/*.deb

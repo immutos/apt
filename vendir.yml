@@ -1,0 +1,26 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+directories:
+- path: vendor
+  contents:
+  - path: immutos/debco
+    githubRelease:
+      slug: immutos/debco
+      tag: v0.17.1
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
+  - path: immutos/matchstick
+    githubRelease:
+      slug: immutos/matchstick
+      tag: v0.4.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
+  - path: immutos/oci2erofs
+    githubRelease:
+      slug: immutos/oci2erofs
+      tag: v0.4.0
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"

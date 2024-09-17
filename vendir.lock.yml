@@ -1,0 +1,17 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - githubRelease:
+      tag: v0.17.1
+      url: https://api.github.com/repos/immutos/debco/releases/175032462
+    path: immutos/debco
+  - githubRelease:
+      tag: v0.4.0
+      url: https://api.github.com/repos/immutos/matchstick/releases/175118315
+    path: immutos/matchstick
+  - githubRelease:
+      tag: v0.4.0
+      url: https://api.github.com/repos/immutos/oci2erofs/releases/175242796
+    path: immutos/oci2erofs
+  path: vendor
+kind: LockConfig
