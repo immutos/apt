@@ -9,5 +9,17 @@ releases:
       - name: stable
         packages:
           - vendor/immutos/debco/*.deb
+          - vendor/immutos/kernels/linux-image-6.1.*.deb
+          - vendor/immutos/matchstick/*.deb
+          - vendor/immutos/oci2erofs/*.deb
+  - name: trixie
+    origin: Damian Peckett <damian@pecke.tt>
+    label: Immutos APT Repository
+    suite: trixie
+    components:
+      - name: testing
+        packages:
+          - vendor/immutos/debco/*.deb
+          - vendor/immutos/kernels/linux-image-6.10.*.deb
           - vendor/immutos/matchstick/*.deb
           - vendor/immutos/oci2erofs/*.deb
