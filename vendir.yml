@@ -31,3 +31,10 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
+  - path: immutos/usrmerger
+    githubRelease:
+      slug: immutos/usrmerger
+      latest: true
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"

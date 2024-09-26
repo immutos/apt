@@ -12,6 +12,7 @@ releases:
           - vendor/immutos/kernels/linux-image-6.1.*.deb
           - vendor/immutos/matchstick/*.deb
           - vendor/immutos/oci2erofs/*.deb
+          - vendor/immutos/usrmerger/*.deb
   - name: trixie
     origin: Damian Peckett <damian@pecke.tt>
     label: Immutos APT Repository
@@ -23,3 +24,4 @@ releases:
           - vendor/immutos/kernels/linux-image-6.10.*.deb
           - vendor/immutos/matchstick/*.deb
           - vendor/immutos/oci2erofs/*.deb
+          - vendor/immutos/usrmerger/*.deb

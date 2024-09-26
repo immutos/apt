@@ -2,8 +2,8 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - githubRelease:
-      tag: v0.17.1
-      url: https://api.github.com/repos/immutos/debco/releases/175032462
+      tag: v0.18.0
+      url: https://api.github.com/repos/immutos/debco/releases/176895483
     path: immutos/debco
   - githubRelease:
       tag: v2024.09.24
@@ -17,5 +17,9 @@ directories:
       tag: v0.4.0
       url: https://api.github.com/repos/immutos/oci2erofs/releases/175242796
     path: immutos/oci2erofs
+  - githubRelease:
+      tag: v0.1.0
+      url: https://api.github.com/repos/immutos/usrmerger/releases/177046214
+    path: immutos/usrmerger
   path: vendor
 kind: LockConfig
