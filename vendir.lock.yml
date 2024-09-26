@@ -6,8 +6,8 @@ directories:
       url: https://api.github.com/repos/immutos/debco/releases/176895483
     path: immutos/debco
   - githubRelease:
-      tag: v2024.09.24
-      url: https://api.github.com/repos/immutos/kernels/releases/176598456
+      tag: v2024.09.26
+      url: https://api.github.com/repos/immutos/kernels/releases/177088177
     path: immutos/kernels
   - githubRelease:
       tag: v0.4.0
