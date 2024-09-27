@@ -14,8 +14,8 @@ directories:
       url: https://api.github.com/repos/immutos/kernels/releases/177313297
     path: immutos/kernels
   - githubRelease:
-      tag: v0.4.1
-      url: https://api.github.com/repos/immutos/matchstick/releases/177292659
+      tag: v0.5.0
+      url: https://api.github.com/repos/immutos/matchstick/releases/177340294
     path: immutos/matchstick
   - githubRelease:
       tag: v0.4.0
