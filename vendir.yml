@@ -10,6 +10,13 @@ directories:
       disableAutoChecksumValidation: true
       assetNames:
       - "*.deb"
+  - path: immutos/fsutil
+    githubRelease:
+      slug: immutos/fsutil
+      latest: true
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
   - path: immutos/kernels
     githubRelease:
       slug: immutos/kernels
@@ -34,6 +41,13 @@ directories:
   - path: immutos/usrmerger
     githubRelease:
       slug: immutos/usrmerger
+      latest: true
+      disableAutoChecksumValidation: true
+      assetNames:
+      - "*.deb"
+  - path: immutos/vt100
+    githubRelease:
+      slug: immutos/vt100
       latest: true
       disableAutoChecksumValidation: true
       assetNames:

@@ -9,10 +9,12 @@ releases:
       - name: stable
         packages:
           - vendor/immutos/debco/*.deb
+          - vendor/immutos/fsutil/*.deb
           - vendor/immutos/kernels/linux-image-6.1.*.deb
           - vendor/immutos/matchstick/*.deb
           - vendor/immutos/oci2erofs/*.deb
           - vendor/immutos/usrmerger/*.deb
+          - vendor/immutos/vt100/*.deb
   - name: trixie
     origin: Damian Peckett <damian@pecke.tt>
     label: Immutos APT Repository

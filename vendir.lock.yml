@@ -6,6 +6,10 @@ directories:
       url: https://api.github.com/repos/immutos/debco/releases/176895483
     path: immutos/debco
   - githubRelease:
+      tag: git20240927.3189a99
+      url: https://api.github.com/repos/immutos/fsutil/releases/177265414
+    path: immutos/fsutil
+  - githubRelease:
       tag: v2024.09.26
       url: https://api.github.com/repos/immutos/kernels/releases/177088177
     path: immutos/kernels
@@ -21,5 +25,9 @@ directories:
       tag: v0.1.0
       url: https://api.github.com/repos/immutos/usrmerger/releases/177046214
     path: immutos/usrmerger
+  - githubRelease:
+      tag: git20240927.f0871c4
+      url: https://api.github.com/repos/immutos/vt100/releases/177265191
+    path: immutos/vt100
   path: vendor
 kind: LockConfig
