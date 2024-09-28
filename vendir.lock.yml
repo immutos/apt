@@ -22,8 +22,8 @@ directories:
       url: https://api.github.com/repos/immutos/oci2erofs/releases/175242796
     path: immutos/oci2erofs
   - githubRelease:
-      tag: v0.1.0
-      url: https://api.github.com/repos/immutos/usrmerger/releases/177046214
+      tag: v0.2.0
+      url: https://api.github.com/repos/immutos/usrmerger/releases/177439566
     path: immutos/usrmerger
   - githubRelease:
       tag: git20240927.f0871c4
