@@ -2,8 +2,8 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - githubRelease:
-      tag: v0.18.1
-      url: https://api.github.com/repos/immutos/debco/releases/177295266
+      tag: v0.19.0
+      url: https://api.github.com/repos/immutos/debco/releases/177612512
     path: immutos/debco
   - githubRelease:
       tag: git20240927.3189a99
