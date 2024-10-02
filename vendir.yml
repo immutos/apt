@@ -3,6 +3,12 @@ kind: Config
 directories:
 - path: vendor
   contents:
+  - path: immutos/boards
+    githubRelease:
+      slug: immutos/boards
+      latest: true
+      assetNames:
+      - "*.deb"
   - path: immutos/debco
     githubRelease:
       slug: immutos/debco
@@ -13,13 +19,6 @@ directories:
   - path: immutos/fsutil
     githubRelease:
       slug: immutos/fsutil
-      latest: true
-      disableAutoChecksumValidation: true
-      assetNames:
-      - "*.deb"
-  - path: immutos/kernels
-    githubRelease:
-      slug: immutos/kernels
       latest: true
       disableAutoChecksumValidation: true
       assetNames:

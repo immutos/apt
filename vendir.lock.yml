@@ -2,6 +2,10 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - githubRelease:
+      tag: v2024.10.02
+      url: https://api.github.com/repos/immutos/boards/releases/177985249
+    path: immutos/boards
+  - githubRelease:
       tag: v0.19.0
       url: https://api.github.com/repos/immutos/debco/releases/177612512
     path: immutos/debco
@@ -9,10 +13,6 @@ directories:
       tag: git20240927.3189a99
       url: https://api.github.com/repos/immutos/fsutil/releases/177265414
     path: immutos/fsutil
-  - githubRelease:
-      tag: v2024.09.28
-      url: https://api.github.com/repos/immutos/kernels/releases/177440721
-    path: immutos/kernels
   - githubRelease:
       tag: v0.6.0
       url: https://api.github.com/repos/immutos/matchstick/releases/177461136
