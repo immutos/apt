@@ -8,7 +8,7 @@ releases:
     components:
       - name: stable
         packages:
-          - vendor/immutos/boards/linux-image-6.1.*.deb
+          - vendor/immutos/boards/linux-image-*6.1.*.deb
           - vendor/immutos/debco/*.deb
           - vendor/immutos/fsutil/*.deb
           - vendor/immutos/matchstick/*.deb
@@ -21,7 +21,7 @@ releases:
     components:
       - name: testing
         packages:
-          - vendor/immutos/boards/linux-image-6.10.*.deb
+          - vendor/immutos/boards/linux-image-*6.10.*.deb
           - vendor/immutos/debco/*.deb
           - vendor/immutos/matchstick/*.deb
           - vendor/immutos/oci2erofs/*.deb
