@@ -13,7 +13,6 @@ releases:
           - vendor/immutos/fsutil/*.deb
           - vendor/immutos/matchstick/*.deb
           - vendor/immutos/oci2erofs/*.deb
-          - vendor/immutos/usrmerger/*.deb
           - vendor/immutos/vt100/*.deb
   - name: trixie
     origin: Damian Peckett <damian@pecke.tt>
@@ -26,4 +25,3 @@ releases:
           - vendor/immutos/debco/*.deb
           - vendor/immutos/matchstick/*.deb
           - vendor/immutos/oci2erofs/*.deb
-          - vendor/immutos/usrmerger/*.deb
