@@ -2,8 +2,8 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - githubRelease:
-      tag: v2024.10.03-3
-      url: https://api.github.com/repos/immutos/boards/releases/178255713
+      tag: v2024.10.06-1
+      url: https://api.github.com/repos/immutos/boards/releases/178582449
     path: immutos/boards
   - githubRelease:
       tag: v0.19.1
