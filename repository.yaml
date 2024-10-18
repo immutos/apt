@@ -21,9 +21,8 @@ releases:
     components:
       - name: testing
         packages:
-          - vendor/immutos/boards/linux-headers-*6.12.*.deb
-          - vendor/immutos/boards/linux-image-*6.10.*.deb
-          - vendor/immutos/boards/linux-image-*6.12.*.deb
+          - vendor/immutos/boards/bootloader-immutos-milkv-duo*.deb
+          - vendor/immutos/boards/linux-image-*6.11.*.deb
           - vendor/immutos/debco/*.deb
           - vendor/immutos/matchstick/*.deb
           - vendor/immutos/oci2erofs/*.deb
