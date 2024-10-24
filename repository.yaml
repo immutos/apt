@@ -6,7 +6,7 @@ releases:
     label: Immutos APT Repository
     suite: bookworm
     components:
-      - name: stable
+      - name: main
         packages:
           - vendor/immutos/boards/linux-image-*6.1.*.deb
           - vendor/immutos/debco/*.deb
@@ -19,7 +19,7 @@ releases:
     label: Immutos APT Repository
     suite: trixie
     components:
-      - name: testing
+      - name: main
         packages:
           - vendor/immutos/boards/bootloader-immutos-milkv-duo*.deb
           - vendor/immutos/boards/linux-image-*6.11.*.deb
