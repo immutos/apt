@@ -6,8 +6,8 @@ directories:
       url: https://api.github.com/repos/immutos/boards/releases/181764139
     path: immutos/boards
   - githubRelease:
-      tag: v0.19.1
-      url: https://api.github.com/repos/immutos/debco/releases/178241529
+      tag: v0.20.0
+      url: https://api.github.com/repos/immutos/debco/releases/181820928
     path: immutos/debco
   - githubRelease:
       tag: git20240927.3189a99
