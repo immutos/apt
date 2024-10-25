@@ -12,6 +12,12 @@ jobs:
       DO_NOT_TRACK: "1"
 
     steps:
+    # There's often quite a bit of clock skew on GitHub Actions.
+    - name: Sync system time with NTP
+      run: |
+        sudo apt update && sudo apt install -y ntpdate
+        sudo ntpdate -u time.google.com
+      
     - name: Checkout code
       uses: actions/checkout@v4
 
