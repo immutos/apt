@@ -8,6 +8,7 @@ releases:
     components:
       - name: main
         packages:
+          - vendor/immutos/boards/immutos-u-boot-qemu_*_all.deb
           - vendor/immutos/boards/linux-image-*6.1.*.deb
           - vendor/immutos/debco/*.deb
           - vendor/immutos/fsutil/*.deb
@@ -22,6 +23,7 @@ releases:
       - name: main
         packages:
           - vendor/immutos/boards/bootloader-immutos-milkv-duo*.deb
+          - vendor/immutos/boards/immutos-u-boot-qemu_*_all.deb
           - vendor/immutos/boards/linux-image-*6.11.*.deb
           - vendor/immutos/debco/*.deb
           - vendor/immutos/matchstick/*.deb
